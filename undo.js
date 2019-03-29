@@ -131,7 +131,7 @@ $.when(mw.loader.using(['mediawiki.util', 'mediawiki.notify', 'mediawiki.api', '
                     $('#mw-mf-diff-info').append('<br><div style="font-size:90%; background:#FFC0CB; padding:5px;">' +
                         details.charAt(0).toLowerCase() + details.slice(1) +
                         ' <br><span style="font-size:85%">If this error message sounds too tech oriented,' +
-                        ' please drop a note at <a href="' + mw.util.getUrl('User talk:FR30799386') + '">FR30799386\'s talk page</a>.</span></div>');
+                        ' please drop a note at <a href="' + mw.util.getUrl('User talk:DannyS712') + '">DannyS712\'s talk page</a>.</span></div>');
                     location.href = location.href + '#mw-mf-diff-info';
                 });
             }
