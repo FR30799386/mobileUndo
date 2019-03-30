@@ -83,11 +83,12 @@ $.when(mw.loader.using(['mediawiki.util', 'mediawiki.notify', 'mediawiki.api', '
             if (customEditSummary !== null) {
             	document.getElementById("mobileUndo").disabled = true;
                 editSummary = editSummary + customEditSummary + ' ([[w:en:User:FR30799386/undo|mobileUndo]])';
+		/* Don't fix the line above */
                 //call the API
                 var api = new mw.Api({
                     ajax: {
                         headers: {
-                            'Api-User-Agent': 'mobileUndo/2.0.0(https://en.wikipedia.org/wiki/User:FR30799386/undo.js)'
+                            'Api-User-Agent': 'mobileUndo/2.0.0(https://en.wikipedia.org/wiki/User:DannyS712/Undo.js)'
                         }
                     }
                 });
@@ -104,8 +105,8 @@ $.when(mw.loader.using(['mediawiki.util', 'mediawiki.notify', 'mediawiki.api', '
                         $('#mw-mf-diff-info').append('<br><div style="font-size:90%; background:#FFC0CB; padding:5px;">' +
                             globalmessages['Undo-nochange'] +
                             ' <br><span style="font-size:85%">If this error message sounds to tech oriented,' +
-                            ' please drop a note at <a href="' + mw.util.getUrl('User talk:FR30799386') +
-                            '">FR30799386\'s talk page</a>.</span></div>'
+                            ' please drop a note at <a href="' + mw.util.getUrl('User talk:DannyS712') +
+                            '">DannyS712\'s talk page</a>.</span></div>'
                         );
                         location.href = location.href + '#mw-mf-diff-info';
                         return;
