@@ -112,7 +112,7 @@ $.when(mw.loader.using(['mediawiki.util', 'mediawiki.notify', 'mediawiki.api', '
                         return;
                     }
                     $('#mobileUndo').text('Sucessful');
-                    mw.notify('Revert sucessful....Reloading in a sec');
+                    mw.notify('Revert sucessful.... Reloading in a sec');
                     setTimeout(function() {
                         location.href = mw.util.getUrl('Special:MobileDiff/' + result.edit.newrevid);
                     }, 1500);
