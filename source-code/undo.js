@@ -1,6 +1,6 @@
 //  mobileUndo 2.0.1, a script allowing reversion of edits on mobile.
 //  All code is released under the default Wikipedia content license.
-//  Installation instructions at [[User:FR30799386/undo]].
+//  Installation instructions at [[User:DannyS712/undo]].
 //  <doc>  This script basically connects an API endpoint to 
 //         a mw-ui-destructive button which is added to the 
 //         footer by using jQuery. Additional functionality 
